@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from pandas import Series, DataFrame
-titanic_data = pd.read_csv(r'C:\Users\thoma\Downloads\titanic_excel.csv')
+titanic_data = pd.read_csv(r'titanic_excel.csv')
 df = pd.DataFrame(titanic_data)
 dfx = df.drop(columns=['Name','Sex','Survived'])
 sy=df.Survived
